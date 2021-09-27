@@ -1,0 +1,20 @@
+{
+  "name": "freshpoint-predict",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsc -w & nodemon dist/server.js"
+  },
+  "keywords": [],
+  "author": "Zbynek Pelunek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.4.3"
+  }
+}
